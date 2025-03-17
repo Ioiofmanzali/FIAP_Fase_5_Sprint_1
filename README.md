@@ -24,10 +24,11 @@
 ### Coordenador(a)
 - <a href="https://www.linkedin.com/company/inova-fusca">Andre Godoi Chaviato</a>
 
-# ENTREGA 1
+# ENTREGA 1 IMAGEM
 
 ## 📜 Descrição
-A Entrega 1 foca na análise de dados agrícolas usando ML supervionado e não supervisionado para precisao de produtividade agricola utilizando o dataset 'yeld_crop.csv'.
+
+Para o Entregável 1 será utilizada a platadforma [SATVEG](https://www.satveg.cnptia.embrapa.br) da EMBRAPA exploração do tutorial e das funcionalidades do site e para criacão de um dataset de imagens de satélite da região de Lucas do Rio Verde (MT). 
 
 ## 💻 Tecnologias utilizadas
 
@@ -38,17 +39,21 @@ A Entrega 1 foca na análise de dados agrícolas usando ML supervionado e não s
 
 - **/docs/entrega_1** - Documentação do projeto
 - **/src/entrega_1** - Código-fonte e scripts
-- **/assets/entrega_1** - Base de dados
+- **/assets/entrega_1** - Banco de Imagens
 
 ## 🔧 Como executar o Projeto
-  1. Acessar o notebook atraves do link [https://colab.research.google.com/drive/1mGIY150CzsRO05xwk_pjD1t94CauImdd?usp=sharing]
-  2. Selecione no  campo 'Ambiente de execução" o modo para executar o código.
-
-     * Observação: link do notebook com acesso restrito a leitura do código
-
-## 🎥 Demonstração
-
-[Link para vídeo demonstrativo no Youtube](https://youtu.be/Q5CVTFYaELo)
+  1. Acesse a Plataforma
+  2. Entre no site oficial do [SATVEG](https://www.satveg.cnptia.embrapa.br)
+  3. Crie uma conta ou faça o seu login.
+  4. Selecione a Região de Interesse
+     obs: há 3 formas de de selecionar uma região - utilizando o mapa interativo, inserir coordenadas geográficas ou pelo nome do local;
+  5. Escolha o timeline a ser analisado
+  6. No painel de controle, selecione um intervalo de tempo para visualizar imagens de diferentes épocas do crescimento da cultura.
+  7. Selecione o Tipo de Imagem  utilizando os indices/sensores desejados (NVDI, EVI ou RGB)
+  8.  Faça o doewnload ou exporte os dados e as imagens 
+      obs: para análise mais detalhada das imagems podems ser utilizados softwares GIS como QGIS ou ArcGIS.
+           informaçoes mais detalhadas podem ser encontradas no [Tutorial da SATVEG](https://www.satveg.cnptia.embrapa.br/satveg/pages/home.html) 
+      
 
 ## 📋 Licença
 
