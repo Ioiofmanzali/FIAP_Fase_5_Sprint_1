@@ -7,7 +7,7 @@
 <br>
 
 # ENTERPRISE CHALLENGE INGREDION - SPRINT 1 
-![mlnacabeca](./assets/mlbacabeca.jpeg)
+![SPRINY1](https://github.com/Ioiofmanzali/FIAP_Fase_5_Sprint_1/blob/main/assets/sprint1.jpg)
 
 ## Grupo 15
 
