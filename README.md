@@ -30,11 +30,6 @@
 
 Para o Entregável 1 será utilizada a platadforma [SATVEG](https://www.satveg.cnptia.embrapa.br) da EMBRAPA exploração do tutorial e das funcionalidades do site e para criacão de um dataset de imagens de satélite da região de Lucas do Rio Verde (MT). 
 
-## 💻 Tecnologias utilizadas
-
-[![Python](https://img.shields.io/badge/python-3670A0?style=for-the-badge&logo=python&logoColor=ffdd54)](#)
-[![Google Colab](https://img.shields.io/badge/Google%20Colab-%23F9A825.svg?style=for-the-badge&logo=googlecolab&logoColor=white)](#)
-
 ## 📁 Estrutura de pastas
 
 - **/docs/entrega_1** - Documentação do projeto
@@ -60,93 +55,35 @@ Para o Entregável 1 será utilizada a platadforma [SATVEG](https://www.satveg.c
 Este projeto está licenciado sob a licença MIT. Para mais detalhes, consulte o arquivo LICENSE no repositório.
 
 ---
-# ENTREGA 2 
+# ENTREGA 2 DADOS TEMPORAIS DE PRODUTIVIDADE
 
 ## 📜 Descrição
 
-A Entrega 2 consiste na utilização da calculadora da AWS para estimar os custos de uma instância Linux On-Demand (100%), comparando os preços entre as regiões de São Paulo (BR) e Virgínia do Norte (EUA) e identificando a opção mais econômica, considerando que a máquina será responsável por hospedar uma API que recebe dados de sensores e executa um modelo de Machine Learning relacionado à Entrega 1.
+A Entrega 2 consiste na buscas de dados temporais de produtividade da cultura de milho no municiípio de Lucas do Rio Verde, em Mato Grosso, entre os anos de 2003 a 2023.
 
 ## 💻 Tecnologias utilizadas
-[![Amazon_AWS](https://img.shields.io/badge/Amazon_AWS-232F3E?style=flat&logo=amazon-web-services&logoColor=white)](#).
+
+[![Python](https://img.shields.io/badge/python-3670A0?style=for-the-badge&logo=python&logoColor=ffdd54)](#)
+
 
 ## 📁 Estrutura de pastas
 
 - **/docs/entrega_2** - Documentação do projeto
-- **/assets/entrega_2** - Relatórios de Preços Orçados
+ **/assets/entrega_2** - Arquivos CSV
 
 ## 🔧 Como executar o Projeto
-  1. Acessar  a AWS Pricing Cauculeto através do link [https://calculator.aws/#/addService]
-  2. Selecione as configurações necessárias para as regiões São Paulo (BR) e Virginia do Norte (EUA), conforme a descrição da atividade
-     ### Componentes:
-     
-                 *  2 CPUs
-                 *  1 GiB de memória
-                 *  Até 5 Gigabit de rede
-                 *  50 GB de armazenamento (HD)
-     
-  3. Salvar dos dados e realizar as devidas análises dos valores 
+  1. Acessar o site do IBGE de Sistema de Recuperação Automática - [Produção Agrícola Municipal](https://sidra.ibge.gov.br/pesquisa/pam/tabelas)
+  2. Seelcione a tabela 839
+  3. Selecione as variaveis, produto, ano e unidade territorial
+     Obs: para esse projetos foram selecionadas as variáveis (area plantada, area colhida, quantidade produzida e rendimento médico), entreos anos de 2003 a 2023, por municipio brasileiro produtor de milho 
+  4. Os aequivos . foram tratados padronizados antes da analise e foi selecionado o municipio de Lucas do Rio Verde para esse projeto. 
 
-
-## 🎥 Demonstração
-
-*[TODO: Adicionar link para vídeo demonstrativo no Youtube]*
 
 ## 📋 Licença
 
 Este projeto está licenciado sob a licença MIT. Para mais detalhes, consulte o arquivo LICENSE no repositório.
 
 
----
-# IR ALÉM 1 
-
-## 📜 Descrição
-
-O projeto "Sistema de Coleta e Comunicação de Dados Usando ESP32 Integrado ao Wi-Fi" tem como objetivo desenvolver uma solução utilizando um ESP32 para coleta de dados via sensores e comunicação Wi-Fi. Os dados coletados são enviados diretamento a um banco de dados Oracle hospedado na Oracle Cloud. A comunicação é feita via api REST.
-
-## 💻 Tecnologias utilizadas
-
-#### Hardware
-![microesp](https://github.com/user-attachments/assets/815e3951-ddec-4284-af49-368e83202b44)
-  - **ESP32:** Microcontrolador wi-fi e Bluetooth, ideal para aplicações de IoT.
-  - **DHT22:** sensor de temperatura e umidade
-  - **LDR:** sensor de luz (resistor-dependente de luz) para medir a intensidade da luz
-  - **Jumpers** e protoboard para conexões
-
-#### Software
-![ESP32](https://img.shields.io/badge/ESP32-000000?style=for-the-badge&logo=espressif&logoColor=white)
-![MicroPython](https://img.shields.io/badge/Python-FFD43B?style=for-the-badge&logo=python&logoColor=blue)
-![JSON](https://img.shields.io/badge/json-5E5C5C?style=for-the-badge&logo=json&logoColor=white)
-![REST API](https://img.shields.io/badge/REST-API-blue?style=for-the-badge)
-![Oracle Cloud Database 23ai](https://img.shields.io/badge/Oracle-F80000?style=for-the-badge&logo=oracle&logoColor=white)
-  - **WokWi:** Software online and gratuito para simulação de ESP32.
-  - **MicroPython:** Linguagem de programação usada para escrever o código que fará as leituras dos dados dos sensores e mandará para o banco de dados.
-  - **API REST:** Método de comunicação utilizado para enviar os dados para o banco Oracle.
-  - **JSON:** Formato dos dados enviados ao banco Oracle.
-  - **Oracle Cloud Database 23ai:** Banco de dados Oracle hospedado na nuvem.
-  - **Oracle ORDS:** Ferramenta disponibilizada pela Oracle Cloud que permite criar e disponibiliar a **API REST**.
-  - **Oracle SQL Developer** Ferramenta para acessar o banco de dados Oracle e visualizar/alterar os dados das tabelas.
-
-## 📁 Estrutura de pastas
-
-- **/docs/ir-alem-1** - Documentação do projeto
-- **/src/ir-alem-1** - Código-fonte e scripts
-- **/assets/ir-alem-1** - Imagens do circuito e diagrama de conexão
-
-## 🔧 Como executar o Projeto
-  1. Construir o projeto no WokWi, adicionando os componentes e carregando o código.
-  2. Executar o código no WokWi e alterar os valores simulados dos sensores.
-  3. Conectar a base de dados Oracle e verificar as linhas da tabela **SENSOR_LEITURAS**.
-  4. Também é possível ler os dados gravados através da API REST.
-
-## 🎥 Demonstração
-
-[Link para vídeo demonstrativo no Youtube](https://youtu.be/gSLD32WOulg)
-
-## 📋 Licença
-
-Este projeto está licenciado sob a licença MIT. Para mais detalhes, consulte o arquivo LICENSE no repositório.
-
----
 
 <p align="center">
 <strong>Projeto desenvolvido para o curso de Inteligência Artificial da FIAP.</strong>
