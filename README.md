@@ -69,7 +69,8 @@ A Entrega 2 consiste na buscas de dados temporais de produtividade da cultura de
 ## 📁 Estrutura de pastas
 
 - **/docs/entrega_2** - Documentação do projeto
- **/assets/entrega_2** - Arquivos CSV
+  
+- **/assets/entrega_2** - Arquivos CSV
 
 ## 🔧 Como executar o Projeto
   1. Acessar o site do IBGE de Sistema de Recuperação Automática - [Produção Agrícola Municipal](https://sidra.ibge.gov.br/pesquisa/pam/tabelas)
