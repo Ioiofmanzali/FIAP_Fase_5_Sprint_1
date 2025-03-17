@@ -76,8 +76,8 @@ A Entrega 2 consiste na buscas de dados temporais de produtividade da cultura de
   1. Acessar o site do IBGE de Sistema de Recuperação Automática - [Produção Agrícola Municipal](https://sidra.ibge.gov.br/pesquisa/pam/tabelas)
   2. Seelcione a tabela 839
   3. Selecione as variaveis, produto, ano e unidade territorial
-     Obs: para esse projetos foram selecionadas as variáveis (area plantada, area colhida, quantidade produzida e rendimento médico), entreos anos de 2003 a 2023, por municipio brasileiro produtor de milho 
-  4. Os aequivos . foram tratados padronizados antes da analise e foi selecionado o municipio de Lucas do Rio Verde para esse projeto. 
+     Obs: para esse projetos foram selecionadas as variáveis (area plantada, area colhida, quantidade produzida e rendimento médico), entre os anos de 2003 a 2023, por município brasileiro produtor de milho. 
+  4. Os arquivos .csv foram tratados padronizados antes da analise e foi selecionado o municipio de Lucas do Rio Verde para esse projeto. 
 
 
 ## 📋 Licença
