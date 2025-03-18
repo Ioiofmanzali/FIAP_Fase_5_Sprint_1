@@ -28,7 +28,7 @@
 
 ## 📜 Descrição
 
-Para o Entregável 1 será utilizada a platadforma [SATVEG](https://www.satveg.cnptia.embrapa.br) da EMBRAPA exploração do tutorial e das funcionalidades do site e para criacão de um dataset de imagens de satélite da região de Lucas do Rio Verde (MT). 
+Para o Entregável 1 será utilizada a plataforma [SATVeg](https://www.satveg.cnptia.embrapa.br) da EMBRAPA exploração do tutorial e das funcionalidades do site e para criacão de um dataset de imagens de satélite da região de Lucas do Rio Verde (MT). 
 
 ## 📁 Estrutura de pastas
 
@@ -36,7 +36,7 @@ Para o Entregável 1 será utilizada a platadforma [SATVEG](https://www.satveg.c
 
 ## 🔧 Como executar o Projeto
   1. Acesse a Plataforma
-  2. Entre no site oficial do [SATVEG](https://www.satveg.cnptia.embrapa.br)
+  2. Entre no site oficial do [SATVeg](https://www.satveg.cnptia.embrapa.br)
   3. Crie uma conta ou faça o seu login.
   4. Selecione a Região de Interesse
      obs: há 3 formas de de selecionar uma região - utilizando o mapa interativo, inserir coordenadas geográficas ou pelo nome do local;
@@ -45,7 +45,7 @@ Para o Entregável 1 será utilizada a platadforma [SATVEG](https://www.satveg.c
   7. Selecione o Tipo de Imagem  utilizando os indices/sensores desejados (NVDI, EVI ou RGB)
   8.  Faça o dowwnload ou exporte os dados e as imagens 
       obs: para análise mais detalhada das imagems podems ser utilizados softwares GIS como QGIS ou ArcGIS.
-           informaçoes mais detalhadas podem ser encontradas no [Tutorial da SATVEG](https://www.satveg.cnptia.embrapa.br/satveg/pages/home.html) 
+           informaçoes mais detalhadas podem ser encontradas no [Tutorial da SATVeg](https://www.satveg.cnptia.embrapa.br/satveg/pages/home.html) 
       
 
 ## 📋 Licença
