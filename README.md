@@ -7,7 +7,7 @@
 <br>
 
 # ENTERPRISE CHALLENGE INGREDION - SPRINT 1 
-![SPRINY1](https://github.com/Ioiofmanzali/FIAP_Fase_5_Sprint_1/blob/main/assets/sprint1.jpg)
+![SPRINY1](./assets/sprint1.jpg)
 
 ## Grupo 15
 
@@ -32,9 +32,7 @@ Para o Entregável 1 será utilizada a platadforma [SATVEG](https://www.satveg.c
 
 ## 📁 Estrutura de pastas
 
-- **/docs/entrega_1** - Documentação do projeto
-- **/src/entrega_1** - Código-fonte e scripts
-- **/assets/entrega_1** - Banco de Imagens
+- **/docs** - relatório em PDF
 
 ## 🔧 Como executar o Projeto
   1. Acesse a Plataforma
@@ -68,9 +66,8 @@ A Entrega 2 consiste na buscas de dados temporais de produtividade da cultura de
 
 ## 📁 Estrutura de pastas
 
-- **/docs/entrega_2** - Documentação do projeto
-  
-- **/assets/entrega_2** - Arquivos CSV
+- **/docs** - relatório em PDF
+- **/assets/datasets** - Arquivos CSV com dados de produtividade
 
 ## 🔧 Como executar o Projeto
   1. Acessar o site do IBGE de Sistema de Recuperação Automática - [Produção Agrícola Municipal](https://sidra.ibge.gov.br/pesquisa/pam/tabelas)
