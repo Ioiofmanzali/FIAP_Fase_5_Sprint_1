@@ -43,7 +43,7 @@ Para o Entregável 1 será utilizada a platadforma [SATVEG](https://www.satveg.c
   5. Escolha o timeline a ser analisado
   6. No painel de controle, selecione um intervalo de tempo para visualizar imagens de diferentes épocas do crescimento da cultura.
   7. Selecione o Tipo de Imagem  utilizando os indices/sensores desejados (NVDI, EVI ou RGB)
-  8.  Faça o doewnload ou exporte os dados e as imagens 
+  8.  Faça o dowwnload ou exporte os dados e as imagens 
       obs: para análise mais detalhada das imagems podems ser utilizados softwares GIS como QGIS ou ArcGIS.
            informaçoes mais detalhadas podem ser encontradas no [Tutorial da SATVEG](https://www.satveg.cnptia.embrapa.br/satveg/pages/home.html) 
       
